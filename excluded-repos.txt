@@ -26,3 +26,4 @@ ai-notes
 awesome-artificial-intelligence
 awesome-langchain
 Awesome-Embedded
+ml-engineering
