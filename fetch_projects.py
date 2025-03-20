@@ -55,11 +55,11 @@ def save_to_markdown(repositories):
     with open(OUTPUT_FILE, "w") as file:
         file.write("# Earn With AI\n\n")
         file.write("**Earn Money** with Open Source AI Project.\n\n")
-        file.write("| Name | Stars | Description |\n")
-        file.write("|------|-------|------------|\n")
-        for repo in unique_repos:
+        file.write("| No. | Name | Stars | Description |\n")
+        file.write("|-----|------|-------|-------------|\n")
+        for index, repo in enumerate(unique_repos, start=1):
             stars = format_stars(repo['stargazers_count'])
-            file.write(f"| [{repo['name']}]({repo['html_url']}) | ⭐ {stars} | {repo['description'] or 'No description'} |\n")
+            file.write(f"| {index} | [{repo['name']}]({repo['html_url']}) | ⭐ {stars} | {repo['description'] or 'No description'} |\n")
 
 
 if __name__ == "__main__":
