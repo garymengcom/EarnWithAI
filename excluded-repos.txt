@@ -27,3 +27,4 @@ awesome-artificial-intelligence
 awesome-langchain
 Awesome-Embedded
 ml-engineering
+ML-Papers-of-the-Week
