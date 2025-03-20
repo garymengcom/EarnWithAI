@@ -8,6 +8,8 @@ PER_PAGE = 50
 PAGES = 10
 MIN_STARS = 5000
 OUTPUT_FILE = "README.md"  # Output file name changed to README.md
+EXCLUDE_FILE = "excluded-repos.txt"  # File containing repos to exclude
+
 
 def fetch_repositories(topic):
     repos = []
@@ -38,14 +40,17 @@ def format_stars(stars):
     else:
         return str(stars)  # No formatting for less than 1000
 
+def load_excluded():
+    with open(EXCLUDE_FILE, "r") as file:
+        return {line.strip() for line in file.readlines()}
 
-def save_to_markdown(repositories):
+def save_to_markdown(repositories, excluded_repos):
     seen = set()
     unique_repos = []
 
     # Remove duplicates (repos appearing in both topics)
     for repo in repositories:
-        if repo["id"] not in seen:
+        if repo["id"] not in seen and repo["name"] not in excluded_repos:
             seen.add(repo["id"])
             unique_repos.append(repo)
 
@@ -64,7 +69,8 @@ def save_to_markdown(repositories):
 
 if __name__ == "__main__":
     all_repos = []
+    excluded_repos = load_excluded()
     for topic in TOPICS:
         all_repos.extend(fetch_repositories(topic))
     
-    save_to_markdown(all_repos)
+    save_to_markdown(all_repos, excluded_repos)
