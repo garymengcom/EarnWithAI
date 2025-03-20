@@ -28,6 +28,17 @@ def fetch_repositories(topic):
     
     return repos
 
+
+def format_stars(stars):
+    """Format the number of stars to be in k or m units."""
+    if stars >= 1_000_000:
+        return f"{stars / 1_000_000:.1f}m"  # Format to 'm' for millions
+    elif stars >= 1_000:
+        return f"{stars / 1_000:.1f}k"  # Format to 'k' for thousands
+    else:
+        return str(stars)  # No formatting for less than 1000
+
+
 def save_to_markdown(repositories):
     seen = set()
     unique_repos = []
@@ -47,7 +58,8 @@ def save_to_markdown(repositories):
         file.write("| Name | Stars | Description |\n")
         file.write("|------|-------|------------|\n")
         for repo in unique_repos:
-            file.write(f"| [{repo['name']}]({repo['html_url']}) | ⭐ {repo['stargazers_count']} | {repo['description'] or 'No description'} |\n")
+            stars = format_stars(repo['stargazers_count'])
+            file.write(f"| [{repo['name']}]({repo['html_url']}) | ⭐ {stars} | {repo['description'] or 'No description'} |\n")
 
 
 if __name__ == "__main__":
