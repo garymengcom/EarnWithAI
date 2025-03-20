@@ -20,15 +20,11 @@ def fetch_repositories(topic):
             "page": page
         }
         response = requests.get(GITHUB_API, headers=HEADERS, params=params)
-        if response.status_code == 200:
-            repos_curr = response.json().get("items", [])
-            if len(repos_curr) == 0:
-                break
-            repos.extend(repos_curr)
-            print(f"Repos added {len(repos_curr)} of {len(repos)} at topic [{topic}] page [{page}]")
-        else:
-            print(f"Error fetching {topic}, page {page}: {response.text}")
+        repos_curr = response.json().get("items", [])
+        if len(repos_curr) == 0:
             break
+        repos.extend(repos_curr)
+        print(f"Repos added {len(repos_curr)} of {len(repos)} at topic [{topic}] page [{page}]")
     
     return repos
 
