@@ -21,3 +21,8 @@ awesome-ai-agents
 awesome-chatgpt-zh
 ML-Course-Notes
 awesome-learning-resources
+awesome-open-gpt
+ai-notes
+awesome-artificial-intelligence
+awesome-langchain
+Awesome-Embedded
