@@ -44,6 +44,29 @@ def load_excluded():
     with open(EXCLUDE_FILE, "r") as file:
         return {line.strip() for line in file.readlines()}
 
+def load_extra_repos():
+    """Load additional repositories from extra-repos.txt."""
+    extra_repos = []
+    with open("extra-repos.txt", "r") as file:
+        for line in file:
+            owner_repo = line.strip()
+            if owner_repo:
+                owner, repo = owner_repo.split("/")
+                extra_repos.append({"owner": owner, "name": repo})
+    return extra_repos
+
+def fetch_extra_repo_details(extra_repos):
+    """Fetch details for repositories listed in extra-repos.txt."""
+    detailed_repos = []
+    for repo in extra_repos:
+        url = f"https://api.github.com/repos/{repo['owner']}/{repo['name']}"
+        response = requests.get(url, headers=HEADERS)
+        if response.status_code == 200:
+            detailed_repos.append(response.json())
+        else:
+            print(f"Failed to fetch details for {repo['owner']}/{repo['name']}")
+    return detailed_repos
+
 def save_to_markdown(repositories, excluded_repos):
     seen = set()
     unique_repos = []
@@ -72,5 +95,10 @@ if __name__ == "__main__":
     excluded_repos = load_excluded()
     for topic in TOPICS:
         all_repos.extend(fetch_repositories(topic))
+    
+    # Add extra repositories
+    extra_repos = load_extra_repos()
+    all_repos.extend(fetch_extra_repo_details(extra_repos))
+    print("Loaded extra repositories")
     
     save_to_markdown(all_repos, excluded_repos)
