@@ -3,7 +3,7 @@ import os
 
 GITHUB_API = "https://api.github.com/search/repositories"
 HEADERS = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
-TOPICS = ["ai", "ai-agent"]  # Fetch separately for each topic
+TOPICS = ["ai", "ai-agent", "llm"]  # Fetch separately for each topic
 PER_PAGE = 50
 PAGES = 10
 MIN_STARS = 5000
