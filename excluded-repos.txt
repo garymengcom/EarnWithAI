@@ -28,3 +28,7 @@ awesome-langchain
 Awesome-Embedded
 ml-engineering
 ML-Papers-of-the-Week
+llm-course
+LLMs-from-scratch
+Pake
+gin-vue-admin
