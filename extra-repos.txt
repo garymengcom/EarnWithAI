@@ -1,3 +1,4 @@
 FlowiseAI/Flowise
 livekit/livekit
 mannaandpoem/OpenManus
+suno-ai/bark
