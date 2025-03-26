@@ -3,3 +3,6 @@ livekit/livekit
 mannaandpoem/OpenManus
 suno-ai/bark
 langchain-ai/langchain
+langchain-ai/langgraph
+meta-llama/llama3
+meta-llama/llama

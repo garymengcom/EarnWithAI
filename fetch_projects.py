@@ -1,5 +1,6 @@
 import requests
 import os
+from datetime import datetime, timedelta
 
 GITHUB_API = "https://api.github.com/search/repositories"
 HEADERS = {"Authorization": f"token {os.getenv('GITHUB_TOKEN')}"}
@@ -13,9 +14,10 @@ EXCLUDE_FILE = "excluded-repos.txt"  # File containing repos to exclude
 
 def fetch_repositories(topic):
     repos = []
+    one_year_ago = datetime.now() - timedelta(days=365)  # Calculate the date one year ago
     for page in range(1, PAGES + 1):
         params = {
-            "q": f"topic:{topic} stars:>={MIN_STARS}",
+            "q": f"topic:{topic} stars:>={MIN_STARS} pushed:>={one_year_ago.strftime('%Y-%m-%d')}",
             "sort": "stars",  # Sort by stars
             "order": "desc",   # Descending order
             "per_page": PER_PAGE,
