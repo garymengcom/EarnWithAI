@@ -33,3 +33,11 @@ LLMs-from-scratch
 Pake
 gin-vue-admin
 alignment-handbook
+Awesome-Chinese-LLM
+awesome-mlops
+awesome-generative-ai
+Awesome-LLM-Strawberry
+Awesome-GPT-Agents
+awesome-chatgpt
+awesome-pretrained-chinese-nlp-models
+awesome-mcp-servers
