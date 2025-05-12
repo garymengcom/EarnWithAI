@@ -1,6 +1,6 @@
 FlowiseAI/Flowise
 livekit/livekit
-mannaandpoem/OpenManus
+FoundationAgents/OpenManus
 suno-ai/bark
 langchain-ai/langchain
 langchain-ai/langgraph
