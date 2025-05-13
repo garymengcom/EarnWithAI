@@ -11,10 +11,10 @@
 | 5 | [dify](https://github.com/langgenius/dify) | ⭐ 96.7k | Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production. |
 | 6 | [open-webui](https://github.com/open-webui/open-webui) | ⭐ 94.3k | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) |
 | 7 | [n8n](https://github.com/n8n-io/n8n) | ⭐ 91.9k | Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. |
-| 8 | [supabase](https://github.com/supabase/supabase) | ⭐ 82.6k | The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. |
-| 9 | [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | ⭐ 66.4k | real time face swap and one-click video deepfake with only a single image |
-| 10 | [lobe-chat](https://github.com/lobehub/lobe-chat) | ⭐ 60.4k | 🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Plugins/Artifacts) and Thinking. One-click FREE deployment of your private ChatGPT/ Claude / DeepSeek application. |
-| 11 | [browser-use](https://github.com/browser-use/browser-use) | ⭐ 59.8k | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. |
+| 8 | [supabase](https://github.com/supabase/supabase) | ⭐ 82.7k | The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications. |
+| 9 | [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | ⭐ 66.5k | real time face swap and one-click video deepfake with only a single image |
+| 10 | [lobe-chat](https://github.com/lobehub/lobe-chat) | ⭐ 60.5k | 🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Plugins/Artifacts) and Thinking. One-click FREE deployment of your private ChatGPT/ Claude / DeepSeek application. |
+| 11 | [browser-use](https://github.com/browser-use/browser-use) | ⭐ 59.9k | 🌐 Make websites accessible for AI agents. Automate tasks online with ease. |
 | 12 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | ⭐ 55.5k | 🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming |
 | 13 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | ⭐ 54.1k | CLI platform to experiment with codegen. Precursor to: https://lovable.dev |
 | 14 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | ⭐ 54.1k | 🙌 OpenHands: Code Less, Make More |
@@ -26,7 +26,7 @@
 | 20 | [OpenManus](https://github.com/FoundationAgents/OpenManus) | ⭐ 45.5k | No fortress, purely open ground.  OpenManus is Coming. |
 | 21 | [autogen](https://github.com/microsoft/autogen) | ⭐ 44.4k | A programming framework for agentic AI 🤖 PyPi: autogen-agentchat Discord: https://aka.ms/autogen-discord Office Hour: https://aka.ms/autogen-officehour |
 | 22 | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | ⭐ 44.0k | The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility,  and more. |
-| 23 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | ⭐ 43.3k | FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent & VSCode Agent (And other Open Sourced) System Prompts, Tools & AI Models. |
+| 23 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | ⭐ 43.7k | FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent & VSCode Agent (And other Open Sourced) System Prompts, Tools & AI Models. |
 | 24 | [llama_index](https://github.com/run-llama/llama_index) | ⭐ 41.6k | LlamaIndex is the leading framework for building LLM-powered agents over your data. |
 | 25 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | ⭐ 40.9k | Making large AI models cheaper, faster and more accessible |
 | 26 | [unsloth](https://github.com/unslothai/unsloth) | ⭐ 38.5k | Finetune Qwen3, Llama 4, TTS, DeepSeek-R1 & Gemma 3 LLMs 2x faster with 70% less memory! 🦥 |
@@ -42,20 +42,20 @@
 | 36 | [MockingBird](https://github.com/babysor/MockingBird) | ⭐ 36.2k | 🚀AI拟声: 5秒内克隆您的声音并生成任意语音内容 Clone a voice in 5 seconds to generate arbitrary speech in real-time |
 | 37 | [ChatTTS](https://github.com/2noise/ChatTTS) | ⭐ 36.2k | A generative speech model for daily dialogue. |
 | 38 | [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) | ⭐ 35.0k | Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain  |
-| 39 | [milvus](https://github.com/milvus-io/milvus) | ⭐ 34.6k | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
+| 39 | [milvus](https://github.com/milvus-io/milvus) | ⭐ 34.7k | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search |
 | 40 | [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) | ⭐ 32.7k | The first real AI developer |
 | 41 | [LocalAI](https://github.com/mudler/LocalAI) | ⭐ 32.5k | :robot: The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI,  running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference |
 | 42 | [spaCy](https://github.com/explosion/spaCy) | ⭐ 31.5k | 💫 Industrial-strength Natural Language Processing (NLP) in Python |
 | 43 | [crewAI](https://github.com/crewAIInc/crewAI) | ⭐ 31.5k | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. |
 | 44 | [chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) | ⭐ 31.2k | AI chat for any model. |
-| 45 | [tabby](https://github.com/TabbyML/tabby) | ⭐ 31.1k | Self-hosted AI coding assistant |
-| 46 | [fabric](https://github.com/danielmiessler/fabric) | ⭐ 31.1k | fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. |
-| 47 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ⭐ 30.9k | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. |
+| 45 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ⭐ 31.2k | 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM. |
+| 46 | [tabby](https://github.com/TabbyML/tabby) | ⭐ 31.1k | Self-hosted AI coding assistant |
+| 47 | [fabric](https://github.com/danielmiessler/fabric) | ⭐ 31.1k | fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. |
 | 48 | [netron](https://github.com/lutzroeder/netron) | ⭐ 30.2k | Visualizer for neural network, deep learning and machine learning models |
 | 49 | [khoj](https://github.com/khoj-ai/khoj) | ⭐ 30.0k | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. |
 | 50 | [roop](https://github.com/s0md3v/roop) | ⭐ 29.8k | one-click face swap |
 | 51 | [docling](https://github.com/docling-project/docling) | ⭐ 29.5k | Get your documents ready for gen AI |
-| 52 | [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | ⭐ 29.5k | Pretrain, finetune ANY AI model of ANY size on multiple GPUs, TPUs with zero code changes. |
+| 52 | [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | ⭐ 29.4k | Pretrain, finetune ANY AI model of ANY size on multiple GPUs, TPUs with zero code changes. |
 | 53 | [mem0](https://github.com/mem0ai/mem0) | ⭐ 29.0k | Memory for AI Agents; SOTA in AI Agent Memory, beating OpenAI Memory in accuracy by 26% - https://mem0.ai/research |
 | 54 | [llama3](https://github.com/meta-llama/llama3) | ⭐ 28.7k | The official Meta Llama 3 GitHub site |
 | 55 | [mindsdb](https://github.com/mindsdb/mindsdb) | ⭐ 27.9k | AI's query engine - Platform for building AI that can learn and answer questions over large scale federated data. |
@@ -63,7 +63,7 @@
 | 57 | [continue](https://github.com/continuedev/continue) | ⭐ 26.2k | ⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks |
 | 58 | [cherry-studio](https://github.com/CherryHQ/cherry-studio) | ⭐ 26.1k | 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers. |
 | 59 | [Folo](https://github.com/RSSNext/Folo) | ⭐ 25.8k | 🧡 Follow everything in one place |
-| 60 | [LibreChat](https://github.com/danny-avila/LibreChat) | ⭐ 25.4k | Enhanced ChatGPT Clone: Features Agents, DeepSeek, Anthropic, AWS, OpenAI, Assistants API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active project. |
+| 60 | [LibreChat](https://github.com/danny-avila/LibreChat) | ⭐ 25.5k | Enhanced ChatGPT Clone: Features Agents, DeepSeek, Anthropic, AWS, OpenAI, Assistants API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active project. |
 | 61 | [composio](https://github.com/ComposioHQ/composio) | ⭐ 25.2k | Composio equip's your AI agents & LLMs with 100+ high-quality integrations via function calling |
 | 62 | [graphrag](https://github.com/microsoft/graphrag) | ⭐ 25.1k | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | 63 | [semantic-kernel](https://github.com/microsoft/semantic-kernel) | ⭐ 24.4k | Integrate cutting-edge LLM technology quickly and easily into your apps |
@@ -85,11 +85,11 @@
 | 79 | [daytona](https://github.com/daytonaio/daytona) | ⭐ 20.3k | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code |
 | 80 | [pandas-ai](https://github.com/sinaptik-ai/pandas-ai) | ⭐ 20.1k | Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG. |
 | 81 | [gitleaks](https://github.com/gitleaks/gitleaks) | ⭐ 19.8k | Find secrets with Gitleaks 🔑 |
-| 82 | [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | ⭐ 19.5k | Python scraper based on AI |
+| 82 | [Scrapegraph-ai](https://github.com/ScrapeGraphAI/Scrapegraph-ai) | ⭐ 19.6k | Python scraper based on AI |
 | 83 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | ⭐ 18.7k | React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁 |
 | 84 | [peft](https://github.com/huggingface/peft) | ⭐ 18.4k | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. |
 | 85 | [Qwen](https://github.com/QwenLM/Qwen) | ⭐ 18.2k | The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud. |
-| 86 | [void](https://github.com/voideditor/void) | ⭐ 17.8k | No description |
+| 86 | [void](https://github.com/voideditor/void) | ⭐ 17.9k | No description |
 | 87 | [vanna](https://github.com/vanna-ai/vanna) | ⭐ 17.6k | 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄. |
 | 88 | [agentic](https://github.com/transitive-bullshit/agentic) | ⭐ 17.5k | AI agent stdlib that works with any LLM and TypeScript AI SDK. |
 | 89 | [llm-action](https://github.com/liguodongiot/llm-action) | ⭐ 17.2k | 本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地） |
@@ -107,8 +107,8 @@
 | 101 | [kubesphere](https://github.com/kubesphere/kubesphere) | ⭐ 15.9k | The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️ |
 | 102 | [stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) | ⭐ 15.8k | stable diffusion webui colab |
 | 103 | [eliza](https://github.com/elizaOS/eliza) | ⭐ 15.8k | Autonomous agents for everyone |
-| 104 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | ⭐ 15.8k | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]  |
-| 105 | [repomix](https://github.com/yamadashy/repomix) | ⭐ 15.8k | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more. |
+| 104 | [repomix](https://github.com/yamadashy/repomix) | ⭐ 15.8k | 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more. |
+| 105 | [SWE-agent](https://github.com/SWE-agent/SWE-agent) | ⭐ 15.8k | SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024]  |
 | 106 | [ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B) | ⭐ 15.7k | ChatGLM2-6B: An Open Bilingual Chat LLM | 开源双语对话语言模型 |
 | 107 | [DocsGPT](https://github.com/arc53/DocsGPT) | ⭐ 15.6k | DocsGPT is an open-source genAI tool that helps users get reliable answers from knowledge source, while avoiding hallucinations. It enables private and reliable information retrieval, with tooling and agentic system capability built in. |
 | 108 | [ai-pdf-chatbot-langchain](https://github.com/mayooear/ai-pdf-chatbot-langchain) | ⭐ 15.5k | AI PDF chatbot agent built with LangChain & LangGraph  |
@@ -145,7 +145,7 @@
 | 139 | [open-llms](https://github.com/eugeneyan/open-llms) | ⭐ 12.0k | 📋 A list of open LLMs available for commercial use. |
 | 140 | [h2ogpt](https://github.com/h2oai/h2ogpt) | ⭐ 11.8k | Private chat with local GPT with document, images, video, etc. 100% private, Apache 2.0. Supports oLLaMa, Mixtral, llama.cpp, and more. Demo: https://gpt.h2o.ai/ https://gpt-docs.h2o.ai/ |
 | 141 | [stagehand](https://github.com/browserbase/stagehand) | ⭐ 11.8k | An AI web browsing framework focused on simplicity and extensibility. |
-| 142 | [gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | ⭐ 11.6k | Free, simple, fast interactive diagrams for any GitHub repository |
+| 142 | [gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | ⭐ 11.7k | Free, simple, fast interactive diagrams for any GitHub repository |
 | 143 | [LLMSurvey](https://github.com/RUCAIBox/LLMSurvey) | ⭐ 11.5k | The official GitHub page for the survey paper "A Survey of Large Language Models". |
 | 144 | [ludwig](https://github.com/ludwig-ai/ludwig) | ⭐ 11.4k | Low-code framework for building custom LLMs, neural networks, and other AI models |
 | 145 | [CogVideo](https://github.com/THUDM/CogVideo) | ⭐ 11.4k | text and image to video generation: CogVideoX (2024) and CogVideo (ICLR 2023) |
